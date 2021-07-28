@@ -82,6 +82,7 @@ body {
 }
 
 /* header */
+
 #header {
   width: 100%;
   height: 5em;
@@ -93,15 +94,17 @@ body {
 
 #header-img {
   width: 20em;
-  padding-left: 3em;
+  padding-left: 4em;
 }
+
 #nav-bar {
   margin-left: auto;
 }
+
 .nav-link {
   text-decoration: none;
   margin-right: 5em;
-  color: #000;
+  color: rgb(0 0 0 / 80%);
   outline: none;
 }
 
@@ -114,23 +117,30 @@ body {
   flex-direction: column;
   text-align: center;
 }
-input {
-  margin-top: 1em;
+
+#form h2 {
+  color: rgb(0 0 0 / 80%);
 }
+
 #email {
+  margin-top: 0.5em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   padding-left: 0.5em;
   width: 22em;
   outline: none;
 }
+
 #submit {
+  margin-top: 0.5em;
   font-weight: 900;
   padding: 0.5em 2em;
   border: none;
   background-color: #f1c40f;
   cursor: pointer;
+  color: rgb(0 0 0 / 80%);
 }
+
 #submit:hover {
   background-color: rgb(252, 154, 35);
   transition: all 0.5s ease;
@@ -141,15 +151,22 @@ input {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 4em;
+  padding-top: 3em;
   width: 100%;
   margin: 0 auto;
-  padding-bottom: 4em;
+  padding-bottom: 3em;
 }
+
+#main #div h2,
+#main #div p {
+  color: rgb(0 0 0 / 80%);
+}
+
 #div {
   display: flex;
   max-width: 1000px;
 }
+
 .first-div {
   display: flex;
   align-items: center;
@@ -159,6 +176,7 @@ input {
   color: darkorange;
   font-size: 3em;
 }
+
 .second-div {
   display: flex;
   flex-direction: column;
@@ -166,32 +184,38 @@ input {
   height: 125px;
   width: 80vw;
 }
+
 /* video */
 #video {
   display: flex;
   justify-content: center;
   margin: auto;
   max-width: 560px;
+  box-shadow: 0px 4px 10px rgb(0 0 0 / 50%);
 }
 
 /* pricing */
+
 #pricing {
   display: flex;
   justify-content: center;
-  margin-top: 4em;
+  margin-top: 3em;
   padding: 1em;
 }
+
 .box-pricing {
   width: 20em;
   height: 20em;
-  border: 1px solid black;
+  border: 1px solid #ddd;
 }
+
 .box-second-pricing {
   width: 20em;
   height: 20em;
-  border: 1px solid black;
+  border: 1px solid #ddd;
   margin: 0em 1em;
 }
+
 .box-title {
   height: 3em;
   background-color: #ddd;
@@ -199,13 +223,17 @@ input {
   justify-content: center;
   align-items: center;
   font-weight: 700;
+  color: rgb(0 0 0 / 80%);
 }
+
 .box-price {
   height: 3em;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
+  color: rgb(0 0 0 / 80%);
+  font-size: 32px;
 }
 .box-pricing ul,
 .box-second-pricing ul {
@@ -215,14 +243,17 @@ input {
 .box-second-pricing ul li {
   list-style: none;
   margin-bottom: 13px;
+  color: rgb(0 0 0 / 80%);
 }
 #btn-select {
-  width: 100px;
-  height: 40px;
+  width: 120px;
+  height: 30px;
   text-align: center;
   background-color: #f1c40f;
   cursor: pointer;
   border: none;
+  outline: none;
+  letter-spacing: -1px;
 }
 #btn-select:hover {
   background-color: rgb(252, 154, 35);
@@ -242,7 +273,7 @@ input {
 .class-footer {
   width: 63em;
   background-color: #ddd;
-  height: 5em;
+  height: 4em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -253,12 +284,14 @@ input {
   margin-left: auto;
 }
 .top ul li {
+  font-size: 14.4px;
   display: inline;
   list-style: none;
   margin-right: 1em;
+  color: rgb(0 0 0 / 80%);
 }
 .bottom {
-  font-size: 14.4px;
+  font-size: 12px;
   color: #444;
   margin-right: 0.5em;
   margin-top: 0.3em;
